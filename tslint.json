@@ -7,7 +7,10 @@
   "rules": {
     "quotemark": [true, "single"],
     "member-access": [false],
-    "ordered-imports": [false],
+    "ordered-imports": [true, {
+      "import-sources-order": "any",
+      "named-imports-order": "case-insensitive"
+    }],
     "max-line-length": [true, 150],
     "member-ordering": [false],
     "interface-name": [false],
